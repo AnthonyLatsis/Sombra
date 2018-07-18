@@ -19,16 +19,16 @@ The image projection currently doesn't support animating through shadow properti
 
 ## Requirements
 
-* Xcode 9.4 +
+* Xcode 9 +
 * Swift 4 +
-* iOS 11 +
+* iOS 10 +
 
 ## Installation
 
 Sombra can be integrated using [CocoaPods](https://cocoapods.org/). Specify it in your `Podfile` and run `$ pod install`.
 
 ``` ruby
-platform :ios, '11.0'
+platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target>' do
