@@ -113,7 +113,6 @@ class Sombra: CALayer {
             shadow.opacity = cachedShadowOpacity
 
             UIGraphicsBeginImageContext(shadow.bounds.size)
-//            UIGraphicsBeginImageContextWithOptions(shadow.bounds.size, false, UIScreen.main.scale)
             let cxt = UIGraphicsGetCurrentContext()
             cxt?.translateBy(x: 0, y: shadow.bounds.height)
             cxt?.scaleBy(x: 1, y: -1)
